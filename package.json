@@ -1,0 +1,24 @@
+{
+  "name": "challenge",
+  "version": "1.0.0",
+  "description": "",
+  "main": "indicies.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node ./src/index.js",
+    "test": "mocha --require @babel/register"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "@babel/register": "^7.5.5",
+    "chai": "^4.2.0",
+    "eslint": "^6.0.1",
+    "mocha": "^6.2.0",
+    "nodemon": "^1.19.1"
+  }
+}
