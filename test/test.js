@@ -75,5 +75,13 @@ describe('Robin Healthcate Challenge', function() {
 
             checkIndicies(nums, sum, length)
         })
+
+        it('Should be able to handle a result that contains no sums', function() {
+            const nums = [1,1,1,1];
+            const sum = 3;
+            const length = 0;
+
+            checkIndicies(nums, sum, length)
+        })
     })
 })
